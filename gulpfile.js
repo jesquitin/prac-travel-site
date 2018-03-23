@@ -10,7 +10,7 @@ gulp.task('default', function () {
      console.log("Imagine something useful being done to your HTML here.");
  });
 
- gulp.task(watch, function () {
+ gulp.task('watch', function () {
      watch('./app/index.html', function() {
          gulp.start('html');
      })
