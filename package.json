@@ -2,7 +2,12 @@
   "name": "prac-travel-site",
   "version": "1.0.0",
   "dependencies": {
+    "graceful-fs": "^4.1.11",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.0"
   }
 }
