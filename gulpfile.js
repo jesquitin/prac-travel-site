@@ -14,4 +14,4 @@ gulp.task('default', function () {
      watch('./app/index.html', function() {
          gulp.start('html');
      })
- });
+ });  
