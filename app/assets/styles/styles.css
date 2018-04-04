@@ -1,0 +1,18 @@
+/* NOTE: when doing an import the import funtion has to be at the very top of the file*/
+/* the below line will tell postcss to import content from the "Large-Hero.css"file into the main styles.css file*/
+@import "normalize.css";
+@import "base/_variables.css";
+@import "base/_mixins.css";
+@import "base/_global.css";
+@import "modules/_large-hero";
+@import "modules/_btn.css";
+@import "modules/_wrapper.css";
+@import "modules/_page-section";
+@import "modules/_headline";
+@import "modules/_rows";
+@import "modules/_generic-content-container";
+ 
+ 
+ 
+
+
